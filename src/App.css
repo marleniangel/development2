@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body {
+  background-color: #13132e; 
+}
+
+body {
+  color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.vinyl-image {
+  max-width: 150px; 
+  max-height: 150px; 
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.cart-button {
+  background-color: #4d6987; 
+  color: #fff; 
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer;
+  border-radius: 5px; 
+  font-size: 16px; 
+}
+
+.cart-button:hover {
+  background-color: #0056b3; 
+}
+.filter-buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+}
+
+.filter-group button {
+  margin-right: 8px;
+}
+.filter-group button:hover {
+  background-color: #0056b3; 
+}
+.sorting-group button:hover {
+  background-color: #0056b3; 
+}
+
+.sorting-group {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Style for filter buttons */
+.filter-group button {
+  background-color: #4d5395; 
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: outside;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.sorting-group button {
+  background-color: #4d5395; 
+  border: 10px;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: 10px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.Vinyl {
+  margin-bottom: 20px; 
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space;
+  padding-right: 20px;
+}
+
+.Vinyl img,
+.Vinyl span {
+  padding-right: 20px; 
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

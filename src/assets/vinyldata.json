@@ -1,0 +1,74 @@
+[
+    {
+      "name": "Famous Monsters",
+      "genre": "Punk",
+      "price": 9.50,
+      "image": "images/albumcover.png"
+    },
+    {
+      "name": "Bossanova",
+      "genre": "Alternative",
+      "price": 14,
+      "image": "images/albumcover.png"
+    },
+    {
+      "name": "The Queen is Dead",
+      "genre": "Alternative",
+      "price": 6.50,
+      "image": "images/albumcover.png"
+    },
+    {
+      "name": "London Calling",
+      "genre": "Punk",
+      "price": 15,
+      "image": "images/albumcover.png"
+    },
+    {
+      "name": "OK Computer",
+      "genre": "Alternative",
+      "price": 13,
+      "image": "images/albumcover.png"
+    },
+    {
+      "name": "Rocket to Russia",
+      "genre": "Punk",
+      "price": 4.50,
+      "image": "images/albumcover.png"
+    },
+    {
+      "name": "Bad Brains",
+      "genre": "Punk",
+      "price": 7,
+      "image": "images/albumcover.png"
+    },
+    {
+      "name": "The Stone Roses",
+      "genre": "Alternative",
+      "price": 11,
+      "image": "images/albumcover.png"
+    },
+    {
+        "name": "Doolittle",
+        "genre": "Alternative",
+        "price": 22.25,
+        "image": "images/albumcover.png"
+      },
+      {
+        "name": "Is This It",
+        "genre": "Alternative",
+        "price": 5.25,
+        "image": "images/albumcover.png"
+      },
+      {
+        "name": "In Utero",
+        "genre": "Alternative",
+        "price": 16,
+        "image": "images/albumcover.png"
+      },
+      {
+        "name": "Surfer Rosa",
+        "genre": "Alternative",
+        "price": 8,
+        "image": "images/albumcover.png"
+      }
+  ]
